@@ -197,6 +197,8 @@ function getcertnames() {
 	fi;
 }
 
+# TODO: `code` opens vs code
+
 # `s` with no arguments opens the current directory in Sublime Text, otherwise
 # opens the given location
 function s() {
