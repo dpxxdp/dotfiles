@@ -246,3 +246,8 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# opens vs code
+code() {
+	VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*
+}

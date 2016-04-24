@@ -146,3 +146,6 @@ alias reload="exec $SHELL -l"
 
 #show processes using port
 alias port="sudo lsof -i"
+
+#pwd shows directory and copies it to clipboard
+alias pwd="pwd && pwd | pbcopy"
